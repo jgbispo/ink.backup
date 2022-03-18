@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "João Gutavo Soares Bispo",
+  "scripts": {
+    "start:dev": "NODE_DEV=dev nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ip": "^1.1.5",
+    "pino": "^7.9.1",
+    "pino-pretty": "^7.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
